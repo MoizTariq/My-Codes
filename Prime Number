@@ -1,0 +1,10 @@
+num = int(input("Enter a number: "))
+if num < 2:
+    print(f"'{num}' cannot be classified as either a prime or a composite number.")
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            print(f"'{num}' is a composite number.")
+            break
+    else:
+        print(f"'{num}' is a prime number.")
