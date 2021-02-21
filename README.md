@@ -1,1 +1,1 @@
-# Collection of some Python 3 codes I did in first semester.
+# Collection of some Python 3 codes I have done.
